@@ -1,0 +1,103 @@
+#root {
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .stacked-chart {
+    // margin: 0 auto;
+    max-width: 1380px;
+    width: 100vw;
+    height: 100vh;
+    background: #3f5175;
+  }
+  
+  .energy-svg {
+    height: 500px;
+    overflow: visible;
+    margin: 0;
+  }
+  svg.energy-svg {
+    width: 100vw !important;
+  }
+  .field {
+    padding-right: 45px;
+  }
+  .svg-wrap {
+    width: 100%;
+    display: flex;
+    margin: 16px;
+    height: 350px;
+  }
+  
+  .y-axis-svg {
+    overflow: visible;
+  }
+  
+  .x-axis-scroll {
+    overflow-x: scroll;
+    height: 100vh !important;
+    // margin-bottom: -150px;
+  }
+  
+  /* width */
+  .x-axis-scroll::-webkit-scrollbar {
+    height: 5px;
+    position: relative;
+  }
+  
+  /* Track */
+  .x-axis-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  .x-axis-scroll::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 9999px;
+  }
+  
+  /* Handle on hover */
+  .x-axis-scroll:hover::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 9999px;
+  }
+
+  // fields scroll
+  .fields-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #160303;
+    height: 100px !important;
+    display: flex; 
+    width: inherit; 
+    justify-content: space-between;
+    padding: 25px 45px;
+    // margin-bottom: -150px;
+  }
+  
+  /* width */
+  .fields-scroll::-webkit-scrollbar {
+    height: 5px;
+    position: relative;
+  }
+  
+  /* Track */
+  .fields-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  .fields-scroll::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 9999px;
+  }
+  
+  /* Handle on hover */
+  .fields-scroll:hover::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 9999px;
+  }
+  
