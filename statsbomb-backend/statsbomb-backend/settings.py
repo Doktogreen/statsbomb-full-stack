@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = os.environ("SECRET_KEY") // uncomment for production
-SECRET_KEY = 'django-insecure-35%zq@*mc2paz@=b2dn81$wdkf*ubi&=c#hty*^--qadq*#(l$'
+# SECRET_KEY = 'django-insecure-35%zq@*mc2paz@=b2dn81$wdkf*ubi&=c#hty*^--qadq*#(l$' //uncomment this
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -88,7 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT':{
-            "host": "mongodb+srv://Lorgarithm:ayomide@cluster0.eqa25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+            # "host": "mongodb+srv://Lorgarithm:ayomide@cluster0.eqa25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", //uncomment this
             "name": "statsbombs",
             "authMechanism": "SCRAM-SHA-1" #For Atlas Cloud DB Coonection
         },
